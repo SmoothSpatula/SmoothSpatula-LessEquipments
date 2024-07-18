@@ -10,6 +10,7 @@ function generate_item()
     repeat
         item_id = gm.irandom_range(1, #items)
     until items[item_id] ~= nil and items[item_id][9] ~= nil and items[item_id][7] <= 2 -- repeat until you find a suitable item
+        and (items[item_id][11]== nil or gm.achievement_is_unlocked(items[item_id][11])) -- this condition checks for unlocked items
     return items[item_id][9] -- return item id
 end
  
