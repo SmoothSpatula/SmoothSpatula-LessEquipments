@@ -1,4 +1,4 @@
--- LessEquipments v1.0.0
+-- NoEquipmentsFromEnemies v1.0.0
 -- SmoothSpatula
 
 log.info("Successfully loaded ".._ENV["!guid"]..".")
