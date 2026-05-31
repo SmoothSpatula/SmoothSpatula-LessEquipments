@@ -1,7 +1,7 @@
-# SmoothSpatula-LessEquipments
+# SmoothSpatula-NoEquipmentsFromEnemies
 Enemies can no longer drop equipments, and drop common/uncommon/rare items instead. 
 
-Boss Item drops are not affected, except for **Nematocyst Nozzle** which might not drop anymore. 
+Boss Item drops are not affected.
 
 ## Special Thanks To
 * **tea** for suggesting this idea
